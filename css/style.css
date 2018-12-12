@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Courier+New");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400:700");
+@import url("https://fonts.googleapis.com/css?family=Iceberg:400,700");
+@import url("https://fonts.googleapis.com/css?family=Jolly+Lodger");
+@import url("https://fonts.googleapis.com/css?family=New+Rocker");
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("https://robotmikhro.github.io/space.jpg") no-repeat;
+	background-size: cover;
+}
+
+.box{
+  position: center;
+  width: 470px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+.box img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 0 1.5em transparent;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: 'Orbitron';
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-family: 'Courier New';
+}
+.box p{
+  text-align: justify;
+  font-family: 'Iceberg';
+  text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+#footer {
+    -moz-align-self: -moz-flex-end;
+    -webkit-align-self: -webkit-flex-end;
+	-ms-align-self: -ms-flex-end;
+	align-self: flex-end;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.75);
+	cursor: default;
+	text-align: center;
+}
+
+#footer .copyright {
+	margin: 0;
+	margin-bottom: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: 'New Rocker';
+	list-style: none;
+}
+
+#footer .copyright li {
+    display: inline-block;
+	margin: 0 0 0 0.45em;
+	padding: 0 0 0 0.85em;
+    border-left: solid 1px rgba(255, 255, 255, 0.5);
+	line-height: 1;
+}
+
+#footer .copyright li:first-child {
+	border-left: 0;
+}
