@@ -1,9 +1,9 @@
 
 .link:hover{
-	color: red;
+	color: blue;
 }
 .link:link{
-	color: blue;
+	color: red;
 }
 .link:active{
 	color: green;
