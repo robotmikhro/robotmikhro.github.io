@@ -1,7 +1,7 @@
 /* HEADLINE POST UPDATE CSS */
 #news { background:#eaeaea; border-bottom: 2px solid #4e00e1; border-top: 2px solid #ff0000; display: block; float: left; height: 23px; line-height: 18px; overflow: hidden; padding: 5px 0 0 0px; width: 100%; }
 .titlenews {color: #ff0000; display: block; float: left; font: bold 14px/24px Ubuntu; padding: 6px 0 0 10px;margin: -9px 0 0 0; position: absolute; }
-#ltsposts {float: left;margin: -3px -3px -3px 130px;text-align: left;}
+#ltsposts {float: left;margin: -3px 0px 0px 130px;text-align: left;}
 #ltsposts ul,#ltsposts li{list-style:none;margin: 0.49px;padding:0;}
 #ltsposts li a { background: none !important; color:#1c1c1c !important; font: bold 14px/24px Ubuntu; text-decoration: none; }
 ul.shsocial { background:#333; float: right; margin: -8px 0; }
