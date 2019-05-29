@@ -1,5 +1,5 @@
 #news { background:#eaeaea; border-bottom: 2px solid #4e00e1; border-top: 2px solid #ff0000; display: block; float: left; height: 23px; line-height: 18px; overflow: hidden; padding: 5px 0 0 0px; width: 100%; }
-.titlenews {color: #ff0000; display: block; float: left; font: bold 14px/14px Ubuntu; padding: 15px 0 0 10px;margin: -9px 0 0 0; position: absolute; }
+.titlenews {color: #ff0000; display: block; float: left; font: bold 14px/14px Ubuntu; padding: 6px 0 0 20px;margin: -9px 0 0 0; position: absolute; }
 #ltsposts {float: left;margin: -3px -3px -3px 130px;text-align: left;}
 #ltsposts ul,#ltsposts li{list-style:none;margin: 0.49px;padding:0;}
 #ltsposts li a { background: none !important; color:#0e0e0e !important; font: bold 14px/14px Ubuntu; text-decoration: none; }
@@ -14,3 +14,4 @@ ul.shsocial li.fb a:hover{ background-position:0 -32px}
 ul.shsocial li.gp a:hover{ background-position:-96px -32px}
 ul.shsocial li.rs a:hover{ background-position:-192px -32px}
 ul.shsocial li.tw a:hover{ background-position:-256px -32px}
+o
